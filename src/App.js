@@ -1,9 +1,15 @@
 
 import './App.css';
+import React from 'react';
+import EightBall from './EightBall';
 
 function App() {
   return (
-    console.log('hi')
+    <div className='App'>
+      <EightBall/>
+    </div>
+    
+
   );
 }
 
